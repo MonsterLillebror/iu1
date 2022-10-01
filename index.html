@@ -10,8 +10,8 @@
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
    <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
-    <header>
+<body> 
+    <header class="d-none">
         <div class="top-menu">
             <div class="container">
                 <div class="site-settings">
@@ -77,7 +77,7 @@
                         <div class="dropdown">
                             <button type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <span>
-                                    <i class="fa-regular fa-bars me-3"></i>Browse Categories
+                                    <i class="fa-regular fa-bars me-3"></i> Browse Categories
                                 </span>
                                 <i class="fa-regular fa-chevron-down ms-4"></i>
                             </button>
@@ -88,7 +88,7 @@
                         </div>    
                     </div>
                     <div class="special-offer">
-                        <buttom class="btn-theme">SPECIAL OFFER</buttom>
+                        <buttom class="btn btn-theme">SPECIAL OFFER</buttom>
                     </div>   
                 </div>
             </div>
@@ -96,10 +96,10 @@
         </div>
     </header>
 
-    <section class="showcase ">
+    <section class="showcase d-none">
         <div class="container">
             <div class="showcase-body">
-                <h1>Shopping is <span>MORE FUN</span></h1>
+                <h1>Shopping is <strong>MORE FUN</strong></h1>
                 <p>hej ehaas dsfadfdf adsfaf asfafadsfa sdf asdfj</p>
                 <a href="#" class="btn btn-white">SHOP NOW</a>
             </div>
@@ -108,7 +108,7 @@
         </div>
     </section>
     
-    <section class="webshop-info">
+    <section class="webshop-info d-none">
         <div class="container">
             <div class="info-box">
                 <img src="images/icons/free-shipping.svg" alt="Free shipping">
@@ -141,7 +141,7 @@
         </div>
     </section>
 
-    <section class="shop-by-category">
+    <section class="shop-by-category d-none">
         <div class="container">
             <div class="section-title">
                 <h1>SHOP BY <span>CATEGORY</span></h1>
@@ -203,6 +203,46 @@
                 <!-- <img src="ikonen finns inte med i zipfilen" alt="waveline"> -->
                 <p>Check out our last products from top fashion designers</p>
             </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                <div class="col">
+                    <div class="card h-100">
+                        <ul class="card-menu">
+                            <li><a href="#"><i class="fa-regular fa heart"></i></a></li>
+                        </ul>
+                        <img src="images/placeholder/man-body-card1.svg" alt="placeholder images">
+                        <div class="card-body">
+                            <h1 class="card-title">Blu silk flare sleeved top</h1>
+                            <button>Fashion</button>
+                            <p>€50.00</p>
+                            <p class="card-original-price"></p>
+                        </div>
+                        <div class="card-background"></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/placeholder/man-body-card2.svg" alt="placeholder images">
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/placeholder/woman-body-card1.svg" alt="placeholder images">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                
+
+
+
         </div>
     </section>
 

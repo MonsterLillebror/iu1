@@ -51,7 +51,7 @@ html, body {
 }
     .btn-theme:hovor {
         background-color: var(--color-theme-dark);
-        color: var(--color-white);
+        color: var(--color-dark);
     }
 
 .btn-white {
@@ -64,7 +64,7 @@ html, body {
 }
     .btn-white:hovor {
         background-color: var(--color-theme-dark);
-        color: var(--color-white);
+        color: var(--color-dark);
     }
 
 .bg-theme {
@@ -125,30 +125,30 @@ html, body {
             background-color: var(--color-theme);
             color: var(--color-white);
         }
-            .top-menu .site-settings .dropdown-theme button {
-                background-color: var(--color-theme);
-                color: var(--color-white);
-                border: none;
-                padding: 0;
-            }
-                .top-menu .site-settings .dropdown-theme .dropdown-menu {
-                    background-color: var(--color-theme);
-                    color: var(--color-white);
-                    border: none;
-                    width: 250%;
-                    margin: 0;
-                }       
-                    .top-menu .site-settings .dropdown-theme .dropdown-menu .dropdown-item {
-                        background-color: var(--color-theme);
-                        color: var(--color-white);
-                        border: none;
-                        width: 100%;
-                        margin: 0;
-                    }
-                        .top-menu .site-settings .dropdown-theme .dropdown-menu .dropdown-item:hover {
-                            background-color: var(--color-theme-dark);
-                            color: var(--color-white);
-                        }
+        .top-menu .site-settings .dropdown-theme button {
+            background-color: var(--color-theme);
+            color: var(--color-white);
+            border: none;
+            padding: 0;
+        }
+        .top-menu .site-settings .dropdown-theme .dropdown-menu {
+            background-color: var(--color-theme);
+            color: var(--color-white);
+            border: none;
+            width: 250%;
+            margin: 0;
+        }       
+        .top-menu .site-settings .dropdown-theme .dropdown-menu .dropdown-item {
+            background-color: var(--color-theme);
+            color: var(--color-white);
+            border: none;
+            width: 100%;
+            margin: 0;
+        }
+        .top-menu .site-settings .dropdown-theme .dropdown-menu .dropdown-item:hover {
+            background-color: var(--color-theme-dark);
+            color: var(--color-white);
+        }
   
     
     .top-menu .menu-links .links {
@@ -406,8 +406,20 @@ html, body {
     }
 
 .new-arrivals {
-    margin-top: 3rem;
+    padding-top: 2rem;
 }
+
+    .new-arrivals .card {
+        position: relative;
+        height: 400px;
+        width: 350px;
+    }
+    .new-arrivals .card img {
+        height: 400px;
+    }
+    .new-arrivals .card .card-body {
+        position: absolute;
+    }
 
         
 

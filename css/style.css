@@ -144,9 +144,7 @@ html, body {
                             background-color: var(--color-theme-dark);
                             color: var(--color-white);
                         }
-    .top-menu .menu-links {
-        /* display: none; */
-    }  
+  
     
     .top-menu .menu-links .links {
         display: none;
@@ -316,10 +314,8 @@ html, body {
                 color: var(--color-white);
             }
 /* shop-by-category*/
-.shop-by-category {
 
-}
-    .shop-by-category .grid {
+.shop-by-category .grid {
         display: grid;
         gap: 0.8rem;
         grid-template-columns: repeat(5, minmax(100px, 249px));

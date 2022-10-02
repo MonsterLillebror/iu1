@@ -5,13 +5,14 @@
    <meta name="discription" content="Shopping is more fun - Kenkata">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Shopping is more fun - Kenkata</title>
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.js" crossorigin="anonymous"></script> -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
    <link href="css/style.css" rel="stylesheet">
 </head>
 <body> 
-    <header class="d-none">
+    <header class="">
         <div class="top-menu">
             <div class="container">
                 <div class="site-settings">
@@ -96,7 +97,7 @@
         </div>
     </header>
 
-    <section class="showcase d-none">
+    <section class="showcase">
         <div class="container">
             <div class="showcase-body">
                 <h1>Shopping is <strong>MORE FUN</strong></h1>
@@ -108,7 +109,7 @@
         </div>
     </section>
     
-    <section class="webshop-info d-none">
+    <section class="webshop-info">
         <div class="container">
             <div class="info-box">
                 <img src="images/icons/free-shipping.svg" alt="Free shipping">
@@ -141,7 +142,7 @@
         </div>
     </section>
 
-    <section class="shop-by-category d-none">
+    <section class="shop-by-category">
         <div class="container">
             <div class="section-title">
                 <h1>SHOP BY <span>CATEGORY</span></h1>
@@ -209,34 +210,87 @@
                 <div class="col">
                     <div class="card h-100">
                         <ul class="card-menu">
-                            <li><a href="#"><i class="fa-regular fa heart"></i></a></li>
+                            <li><i class="fa-solid fa-circle instock"></i></li>
+                            <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                            <li><a href="#"><i class="fa-regular fa-shuffle"></i></a></li>
+                            <li><a href="#"><i class="fa-regular fa-magnifying-glass"></i></a></li>
+                            <li><a href="#"><i class="fa-regular fa-cart-shopping"></i></a></li>
                         </ul>
                         <img src="images/placeholder/man-body-card1.svg" alt="placeholder images">
                         <div class="card-body">
-                            <h1 class="card-title">Blu silk flare sleeved top</h1>
-                            <button>Fashion</button>
-                            <p>€50.00</p>
-                            <p class="card-original-price"></p>
+                            <h1 class="card-title">Blue silk flare sleeved top</h1>
+                            <button disabled>Fashion</button>
+                            <p class="card-old-price">€50.00</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="card-new-price">€20.00</p>
+                                <div class="text-theme">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="card-background"></div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100">
+                        <ul class="card-menu">
+                            <li><i class="fa-solid fa-circle instock"></i></li>
+                            <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                            <li><a href="#"><i class="fa-regular fa-shuffle"></i></a></li>
+                            <li><a href="#"><i class="fa-regular fa-magnifying-glass"></i></a></li>
+                            <li><a href="#"><i class="fa-regular fa-cart-shopping"></i></a></li>
+                        </ul>
+                        <img src="images/placeholder/man-body-card2.svg" alt="placeholder images">
+                        <div class="card-body">
+                            <h1 class="card-title">New look men's coat</h1>
+                            <button disabled>Fashion</button>
+                            <p class="card-old-price">€50.00</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="card-new-price">€10.00</p>
+                                <div class="text-theme">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="card-background"></div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="images/placeholder/man-body-card2.svg" alt="placeholder images">
-                        <div class="card-body">
-                            <h5 class="card-title"></h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
+                        <ul class="card-menu">
+                            <li><i class="fa-solid fa-circle instock"></i></li>
+                            <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                            <li><a href="#"><i class="fa-regular fa-shuffle"></i></a></li>
+                            <li><a href="#"><i class="fa-regular fa-magnifying-glass"></i></a></li>
+                            <li><a href="#"><i class="fa-regular fa-cart-shopping"></i></a></li>
+                        </ul>
                         <img src="images/placeholder/woman-body-card1.svg" alt="placeholder images">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <h1 class="card-title">Circle pattern girls shirt</h1>
+                            <button disabled>Fashion</button>
+                            <p class="card-old-price">€100.00</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="card-new-price">€80.00</p>
+                                <div class="text-theme">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
                         </div>
+                        <div class="card-background"></div>
                     </div>
                 </div>
                 
